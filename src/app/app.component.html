@@ -1,8 +1,11 @@
 <h1 class="bg-blue-300"> Welcome to Castle UI Demo!</h1>
 <baz-button></baz-button>
+<button class="core-btn">core-btn </button>
 
 <button class="baz-btn baz-btn-primary__outline">app</button>
 <button class="baz-btn baz-btn-primary">app - primary btn</button>
-
+<hr>
+<baz-button btnId="1" btnLable="Primary is so cool" displayClass="primary" displayType="flat" iconDisplayClass=""
+    btnMode="click" iconLeft="save" btnSize="small" btnRadius="med" (btnClick)="onClick($event)"></baz-button>
 
 <router-outlet></router-outlet>
